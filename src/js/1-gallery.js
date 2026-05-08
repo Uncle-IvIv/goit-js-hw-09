@@ -86,7 +86,6 @@ const markup = images
 
 galleryContainer.innerHTML = markup;
 
-// Ініціалізація з налаштуваннями підписів
 new SimpleLightbox(".gallery a.gallery-link", {
   captionsData: "alt",
   captionDelay: 250,
